@@ -1,0 +1,3 @@
+D:\Facultate\Anul III S2\TSP\Lab5\Lab5\Lab5\obj\Debug\Lab5.csprojAssemblyReference.cache
+D:\Facultate\Anul III S2\TSP\Lab5\Lab5\Lab5\obj\Debug\Lab5.Properties.Resources.resources
+D:\Facultate\Anul III S2\TSP\Lab5\Lab5\Lab5\obj\Debug\Lab5.csproj.GenerateResource.cache
