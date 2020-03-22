@@ -1,0 +1,11 @@
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\ModelDesignFirst_L1\bin\Debug\ModelDesignFirst_L1.exe.config
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\ModelDesignFirst_L1\bin\Debug\ModelDesignFirst_L1.exe
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\ModelDesignFirst_L1\bin\Debug\ModelDesignFirst_L1.pdb
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\ModelDesignFirst_L1\bin\Debug\EntityFramework.dll
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\ModelDesignFirst_L1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\ModelDesignFirst_L1\bin\Debug\EntityFramework.xml
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\ModelDesignFirst_L1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\ModelDesignFirst_L1\obj\Debug\ModelDesignFirst_L1.csprojAssemblyReference.cache
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\ModelDesignFirst_L1\obj\Debug\ModelDesignFirst_L1.csproj.CopyComplete
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\ModelDesignFirst_L1\obj\Debug\ModelDesignFirst_L1.exe
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\ModelDesignFirst_L1\obj\Debug\ModelDesignFirst_L1.pdb

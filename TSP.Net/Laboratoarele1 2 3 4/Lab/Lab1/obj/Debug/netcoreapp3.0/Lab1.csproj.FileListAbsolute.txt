@@ -1,0 +1,11 @@
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\Lab1\bin\Debug\netcoreapp3.0\Lab1.exe
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\Lab1\bin\Debug\netcoreapp3.0\Lab1.deps.json
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\Lab1\bin\Debug\netcoreapp3.0\Lab1.runtimeconfig.json
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\Lab1\bin\Debug\netcoreapp3.0\Lab1.runtimeconfig.dev.json
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\Lab1\bin\Debug\netcoreapp3.0\Lab1.dll
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\Lab1\bin\Debug\netcoreapp3.0\Lab1.pdb
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\Lab1\obj\Debug\netcoreapp3.0\Lab1.csprojAssemblyReference.cache
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\Lab1\obj\Debug\netcoreapp3.0\Lab1.AssemblyInfoInputs.cache
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\Lab1\obj\Debug\netcoreapp3.0\Lab1.AssemblyInfo.cs
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\Lab1\obj\Debug\netcoreapp3.0\Lab1.dll
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\Lab1\obj\Debug\netcoreapp3.0\Lab1.pdb

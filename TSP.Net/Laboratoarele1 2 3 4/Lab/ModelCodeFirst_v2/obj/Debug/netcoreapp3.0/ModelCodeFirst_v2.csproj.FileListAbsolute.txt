@@ -1,0 +1,5 @@
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\ModelCodeFirst_v2\bin\Debug\netcoreapp3.0\ModelCodeFirst_v2.deps.json
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\ModelCodeFirst_v2\bin\Debug\netcoreapp3.0\ModelCodeFirst_v2.dll
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\ModelCodeFirst_v2\obj\Debug\netcoreapp3.0\ModelCodeFirst_v2.csprojAssemblyReference.cache
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\ModelCodeFirst_v2\obj\Debug\netcoreapp3.0\ModelCodeFirst_v2.AssemblyInfoInputs.cache
+D:\Facultate\Anul III S2\TSP\Lab1\Lab1\ModelCodeFirst_v2\obj\Debug\netcoreapp3.0\ModelCodeFirst_v2.AssemblyInfo.cs
