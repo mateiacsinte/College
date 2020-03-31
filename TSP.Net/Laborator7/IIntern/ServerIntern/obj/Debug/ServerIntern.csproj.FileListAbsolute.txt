@@ -1,0 +1,9 @@
+D:\Facultate\Anul III S2\TSP\Laborator7\IIntern\ServerIntern\obj\Debug\ServerIntern.csprojAssemblyReference.cache
+D:\Facultate\Anul III S2\TSP\Laborator7\IIntern\ServerIntern\bin\Debug\ServerIntern.exe.config
+D:\Facultate\Anul III S2\TSP\Laborator7\IIntern\ServerIntern\bin\Debug\ServerIntern.exe
+D:\Facultate\Anul III S2\TSP\Laborator7\IIntern\ServerIntern\bin\Debug\ServerIntern.pdb
+D:\Facultate\Anul III S2\TSP\Laborator7\IIntern\ServerIntern\bin\Debug\IIntern.dll
+D:\Facultate\Anul III S2\TSP\Laborator7\IIntern\ServerIntern\bin\Debug\IIntern.pdb
+D:\Facultate\Anul III S2\TSP\Laborator7\IIntern\ServerIntern\obj\Debug\ServerIntern.csproj.CopyComplete
+D:\Facultate\Anul III S2\TSP\Laborator7\IIntern\ServerIntern\obj\Debug\ServerIntern.exe
+D:\Facultate\Anul III S2\TSP\Laborator7\IIntern\ServerIntern\obj\Debug\ServerIntern.pdb

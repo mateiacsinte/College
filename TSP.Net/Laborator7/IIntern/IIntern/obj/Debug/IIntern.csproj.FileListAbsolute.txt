@@ -1,0 +1,5 @@
+D:\Facultate\Anul III S2\TSP\Laborator7\IIntern\IIntern\bin\Debug\IIntern.dll
+D:\Facultate\Anul III S2\TSP\Laborator7\IIntern\IIntern\bin\Debug\IIntern.pdb
+D:\Facultate\Anul III S2\TSP\Laborator7\IIntern\IIntern\obj\Debug\IIntern.csprojAssemblyReference.cache
+D:\Facultate\Anul III S2\TSP\Laborator7\IIntern\IIntern\obj\Debug\IIntern.dll
+D:\Facultate\Anul III S2\TSP\Laborator7\IIntern\IIntern\obj\Debug\IIntern.pdb
