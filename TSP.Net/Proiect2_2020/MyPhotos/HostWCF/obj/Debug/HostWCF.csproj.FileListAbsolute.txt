@@ -1,0 +1,7 @@
+D:\Facultate\TSP\Proiect1_2020\MyPhotos\HostWCF\bin\Debug\HostWCF.exe.config
+D:\Facultate\TSP\Proiect1_2020\MyPhotos\HostWCF\bin\Debug\HostWCF.exe
+D:\Facultate\TSP\Proiect1_2020\MyPhotos\HostWCF\bin\Debug\HostWCF.pdb
+D:\Facultate\TSP\Proiect1_2020\MyPhotos\HostWCF\obj\Debug\HostWCF.csprojAssemblyReference.cache
+D:\Facultate\TSP\Proiect1_2020\MyPhotos\HostWCF\obj\Debug\HostWCF.csproj.CoreCompileInputs.cache
+D:\Facultate\TSP\Proiect1_2020\MyPhotos\HostWCF\obj\Debug\HostWCF.exe
+D:\Facultate\TSP\Proiect1_2020\MyPhotos\HostWCF\obj\Debug\HostWCF.pdb
