@@ -1,4 +1,5 @@
 ﻿using MyPhotoAPI;
+using MyPhotosClient.ClientPhotoService;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,12 +15,10 @@ namespace MyPhotosViews
     public partial class AddLocationForm : Form
     {
         Form1 form1;
-        PhotoAPI photoAPI;
         public AddLocationForm(Form1 form1)
         {
             InitializeComponent();
             this.form1 = form1;
-            photoAPI = new PhotoAPI();
         }
 
         private void backButton_Click(object sender, EventArgs e)
@@ -33,7 +32,8 @@ namespace MyPhotosViews
             string photoName = this.NameTextBox.Text;
             string locations = this.LocationTextBox.Text;
 
-            photoAPI.AddLocations(photoName, locations);
+            PhotoClient photoClient = new PhotoClient();
+            photoClient.photoService.AddLocations(photoName, locations);
 
             this.NameTextBox.Text = "";
             this.LocationTextBox.Text = "";

@@ -12,3 +12,17 @@ D:\Facultate\Anul III S2\TSP\Proiect1_2020\MyPhotos\MyPhotoAPI\obj\Debug\MyPhoto
 D:\Facultate\Anul III S2\TSP\Proiect1_2020\MyPhotos\MyPhotoAPI\obj\Debug\MyPhotoAPI.csproj.CopyComplete
 D:\Facultate\Anul III S2\TSP\Proiect1_2020\MyPhotos\MyPhotoAPI\obj\Debug\MyPhotoAPI.dll
 D:\Facultate\Anul III S2\TSP\Proiect1_2020\MyPhotos\MyPhotoAPI\obj\Debug\MyPhotoAPI.pdb
+D:\Facultate\Anul III S2\Proiect2_2020\MyPhotos\MyPhotoAPI\bin\Debug\MyPhotoAPI.dll.config
+D:\Facultate\Anul III S2\Proiect2_2020\MyPhotos\MyPhotoAPI\bin\Debug\MyPhotoAPI.dll
+D:\Facultate\Anul III S2\Proiect2_2020\MyPhotos\MyPhotoAPI\bin\Debug\MyPhotoAPI.pdb
+D:\Facultate\Anul III S2\Proiect2_2020\MyPhotos\MyPhotoAPI\bin\Debug\EntityFramework.dll
+D:\Facultate\Anul III S2\Proiect2_2020\MyPhotos\MyPhotoAPI\bin\Debug\EntityFramework.SqlServer.dll
+D:\Facultate\Anul III S2\Proiect2_2020\MyPhotos\MyPhotoAPI\bin\Debug\MyPhotos.dll
+D:\Facultate\Anul III S2\Proiect2_2020\MyPhotos\MyPhotoAPI\bin\Debug\MyPhotos.pdb
+D:\Facultate\Anul III S2\Proiect2_2020\MyPhotos\MyPhotoAPI\bin\Debug\MyPhotos.dll.config
+D:\Facultate\Anul III S2\Proiect2_2020\MyPhotos\MyPhotoAPI\bin\Debug\EntityFramework.xml
+D:\Facultate\Anul III S2\Proiect2_2020\MyPhotos\MyPhotoAPI\bin\Debug\EntityFramework.SqlServer.xml
+D:\Facultate\Anul III S2\Proiect2_2020\MyPhotos\MyPhotoAPI\obj\Debug\MyPhotoAPI.csprojAssemblyReference.cache
+D:\Facultate\Anul III S2\Proiect2_2020\MyPhotos\MyPhotoAPI\obj\Debug\MyPhotoAPI.csproj.CopyComplete
+D:\Facultate\Anul III S2\Proiect2_2020\MyPhotos\MyPhotoAPI\obj\Debug\MyPhotoAPI.dll
+D:\Facultate\Anul III S2\Proiect2_2020\MyPhotos\MyPhotoAPI\obj\Debug\MyPhotoAPI.pdb

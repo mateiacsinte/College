@@ -11,7 +11,9 @@ namespace MyPhotos.Context
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.Runtime.Serialization;
+
+    [DataContract]
     public partial class Photo
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -21,10 +23,13 @@ namespace MyPhotos.Context
             this.People = new HashSet<Person>();
             this.Tags = new HashSet<Tags>();
         }
-    
+        [DataMember]
         public int PhotoId { get; set; }
+        [DataMember]
         public string Name { get; set; }
+        [DataMember]
         public string Date { get; set; }
+        [DataMember]
         public string Path { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

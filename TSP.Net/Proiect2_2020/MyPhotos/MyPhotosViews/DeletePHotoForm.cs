@@ -1,4 +1,5 @@
 ﻿using MyPhotoAPI;
+using MyPhotosClient.ClientPhotoService;
 using System;
 using System.Windows.Forms;
 
@@ -7,12 +8,12 @@ namespace MyPhotosViews
     public partial class DeletePhotoForm : Form
     {
         Form1 form1;
-        PhotoAPI photoAPI;
+       
         public DeletePhotoForm(Form1 form1)
         {
             InitializeComponent();
             this.form1 = form1;
-            photoAPI = new PhotoAPI();
+          
         }
 
         private void DeletePhotoButton_Click(object sender, EventArgs e)
@@ -21,7 +22,8 @@ namespace MyPhotosViews
             string photoLocation = this.LocationTextBox.Text;
             string photoTag = this.TagsTextBox.Text;
 
-            photoAPI.DeletePhotos(photoName, photoLocation, photoTag);
+            PhotoClient client = new PhotoClient();
+            client.photoService.DeletePhotos(photoName, photoLocation, photoTag);
 
             this.NameTextBox.Text = "";
             this.LocationTextBox.Text = "";

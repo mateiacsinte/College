@@ -42,9 +42,12 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="MyPhotos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -140,6 +143,7 @@
       <DependentUpon>UpdatePhotoForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\MyPhotos.Context.Photo.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -158,10 +162,21 @@
       <Project>{4911dc92-b94b-4b73-a92f-b6fc28c43ee1}</Project>
       <Name>MyPhotoAPI</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MyPhotosClient\MyPhotosClient.csproj">
+      <Project>{A53C18A5-34BD-45F4-AD7D-D8EF27EBDD9C}</Project>
+      <Name>MyPhotosClient</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MyPhotos\MyPhotosDb.csproj">
       <Project>{64a14638-c296-4e42-87f1-6e931adae9c2}</Project>
       <Name>MyPhotosDb</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ObjectWCF\ObjectWCF.csproj">
+      <Project>{BB785BDE-DAA4-46E2-B255-CD3DA0ECC032}</Project>
+      <Name>ObjectWCF</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -1,4 +1,5 @@
 ﻿using MyPhotoAPI;
+using MyPhotosClient.ClientPhotoService;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,12 +14,10 @@ namespace MyPhotosViews
 {
     public partial class AddPhotoForm : Form
     {
-        PhotoAPI photoAPI;
         Form1 form1;
         public AddPhotoForm(Form1 form1)
         {
             InitializeComponent(); 
-            photoAPI = new PhotoAPI();
             this.form1 = form1;
         }
 
@@ -29,7 +28,10 @@ namespace MyPhotosViews
             string photoDate = this.DateTextBox.Text;
             string photoTags = this.TagsTextBox.Text;
             string photoLocations = this.LocationTextBox.Text;
-            photoAPI.AddPhoto(photoName, photoPath, photoLocations, photoTags, photoDate);
+
+            PhotoClient client = new PhotoClient();
+            client.photoService.AddPhoto(photoName, photoPath, photoLocations, photoTags, photoDate);
+
             this.NameTextBox.Text = "";
             this.PathTextBox.Text = "";
             this.DateTextBox.Text = "";

@@ -1,4 +1,5 @@
 ﻿using MyPhotoAPI;
+using MyPhotosClient.ClientPhotoService;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,12 +14,10 @@ namespace MyPhotosViews
 {
     public partial class AddPersonForm : Form
     {
-        PhotoAPI photoAPI;
         Form1 form1;
         public AddPersonForm(Form1 form1)
         {
             InitializeComponent();
-            photoAPI = new PhotoAPI();
             this.form1 = form1;
         }
 
@@ -34,7 +33,8 @@ namespace MyPhotosViews
             string lastName = this.LastNameTextBox.Text;
             string photos = this.PhotosTextBox1.Text;
 
-            photoAPI.AddPerson(firstName, lastName, photos);
+            PhotoClient client = new PhotoClient();
+            client.photoService.AddPerson(firstName, lastName, photos);
         }
     }
 }
