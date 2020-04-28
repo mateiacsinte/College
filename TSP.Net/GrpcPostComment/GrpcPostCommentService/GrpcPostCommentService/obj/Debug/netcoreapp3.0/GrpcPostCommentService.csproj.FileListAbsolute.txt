@@ -1,0 +1,14 @@
+D:\Facultate\Anul III S2\TSP\GrpcPostComment\GrpcPostCommentService\GrpcPostCommentService\bin\Debug\netcoreapp3.0\Google.Protobuf.dll
+D:\Facultate\Anul III S2\TSP\GrpcPostComment\GrpcPostCommentService\GrpcPostCommentService\bin\Debug\netcoreapp3.0\Grpc.AspNetCore.Server.dll
+D:\Facultate\Anul III S2\TSP\GrpcPostComment\GrpcPostCommentService\GrpcPostCommentService\bin\Debug\netcoreapp3.0\Grpc.AspNetCore.Server.ClientFactory.dll
+D:\Facultate\Anul III S2\TSP\GrpcPostComment\GrpcPostCommentService\GrpcPostCommentService\bin\Debug\netcoreapp3.0\Grpc.Core.Api.dll
+D:\Facultate\Anul III S2\TSP\GrpcPostComment\GrpcPostCommentService\GrpcPostCommentService\bin\Debug\netcoreapp3.0\Grpc.Net.Client.dll
+D:\Facultate\Anul III S2\TSP\GrpcPostComment\GrpcPostCommentService\GrpcPostCommentService\bin\Debug\netcoreapp3.0\Grpc.Net.ClientFactory.dll
+D:\Facultate\Anul III S2\TSP\GrpcPostComment\GrpcPostCommentService\GrpcPostCommentService\bin\Debug\netcoreapp3.0\Grpc.Net.Common.dll
+D:\Facultate\Anul III S2\TSP\GrpcPostComment\GrpcPostCommentService\GrpcPostCommentService\bin\Debug\netcoreapp3.0\Context.dll
+D:\Facultate\Anul III S2\TSP\GrpcPostComment\GrpcPostCommentService\GrpcPostCommentService\obj\Debug\netcoreapp3.0\GrpcPostCommentService.csprojAssemblyReference.cache
+D:\Facultate\Anul III S2\TSP\GrpcPostComment\GrpcPostCommentService\GrpcPostCommentService\obj\Debug\netcoreapp3.0\staticwebassets\GrpcPostCommentService.StaticWebAssets.Manifest.cache
+D:\Facultate\Anul III S2\TSP\GrpcPostComment\GrpcPostCommentService\GrpcPostCommentService\obj\Debug\netcoreapp3.0\staticwebassets\GrpcPostCommentService.StaticWebAssets.xml
+D:\Facultate\Anul III S2\TSP\GrpcPostComment\GrpcPostCommentService\GrpcPostCommentService\obj\Debug\netcoreapp3.0\GrpcPostCommentService.AssemblyInfoInputs.cache
+D:\Facultate\Anul III S2\TSP\GrpcPostComment\GrpcPostCommentService\GrpcPostCommentService\obj\Debug\netcoreapp3.0\GrpcPostCommentService.AssemblyInfo.cs
+D:\Facultate\Anul III S2\TSP\GrpcPostComment\GrpcPostCommentService\GrpcPostCommentService\obj\Debug\netcoreapp3.0\GrpcPostCommentService.RazorTargetAssemblyInfo.cache

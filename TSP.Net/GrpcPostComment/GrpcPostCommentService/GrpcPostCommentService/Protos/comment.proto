@@ -1,0 +1,32 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "GrpcPostCommentService";
+
+package Comment;
+
+// The greeting service definition.
+service CommentService {
+  // Sends a greeting
+  rpc UpdateComment (CommentDetails) returns (CommentDetails);
+  rpc DeleteComment (Index) returns (Index);
+  rpc GetCommentById (Index) returns (CommentDetails);
+  rpc GetAllPosts (EmptyMessage) returns (CommentDetailsList);
+}
+
+message CommentDetails{
+    int CommentId = 1; 
+    string Description =2;
+    string Domain = 3;
+    System.DateTime Date = 4;
+}
+
+message Index{
+	int index = 1;
+}
+
+message CommentDetailsList{
+	repeated CommentDetails posts = 1;
+}
+
+message EmptyMessage{}
+
