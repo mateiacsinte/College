@@ -17,7 +17,7 @@ message PostDetails{
     int32 PostId = 1; 
     string Description =2;
     string Domain = 3;
-    TimeStamp Date = 4;
+    google.protobuf.Timestamp Date = 4;
 }
 
 message Index{
