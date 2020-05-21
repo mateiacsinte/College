@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:3005/photoAPI?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ObjectWCF" />
+  <xs:element name="AddPhoto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="photoName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="photoPath" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="photoLocations" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="photoTags" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="photoDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddPhotoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatePhoto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="newName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="newPath" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="newLocation" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="newTags" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="newDate" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdatePhotoResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePhotos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="photoName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="photoLocation" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="photoTag" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeletePhotosResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddLocations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="photoName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="locationsList" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddLocationsResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddTags">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="photoName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tagList" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddTagsResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddPerson">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="firstName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="lastName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="photos" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddPersonResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FilterPhotos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="photoName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="person" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="path" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="location" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tag" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="date" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FilterPhotosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ObjectWCF" minOccurs="0" name="FilterPhotosResult" nillable="true" type="q1:ArrayOfPhotoDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

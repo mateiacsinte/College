@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="PhotoService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:3005/photoAPI?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:3005/photoAPI?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:3005/photoAPI?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/MyPhotos.Context" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IPhotoService_AddPhoto_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddPhoto" />
+  </wsdl:message>
+  <wsdl:message name="IPhotoService_AddPhoto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddPhotoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPhotoService_UpdatePhoto_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePhoto" />
+  </wsdl:message>
+  <wsdl:message name="IPhotoService_UpdatePhoto_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdatePhotoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPhotoService_DeletePhotos_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePhotos" />
+  </wsdl:message>
+  <wsdl:message name="IPhotoService_DeletePhotos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeletePhotosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPhotoService_AddLocations_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddLocations" />
+  </wsdl:message>
+  <wsdl:message name="IPhotoService_AddLocations_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddLocationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPhotoService_AddTags_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddTags" />
+  </wsdl:message>
+  <wsdl:message name="IPhotoService_AddTags_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddTagsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPhotoService_AddPerson_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddPerson" />
+  </wsdl:message>
+  <wsdl:message name="IPhotoService_AddPerson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddPersonResponse" />
+  </wsdl:message>
+  <wsdl:message name="IPhotoService_FilterPhotos_InputMessage">
+    <wsdl:part name="parameters" element="tns:FilterPhotos" />
+  </wsdl:message>
+  <wsdl:message name="IPhotoService_FilterPhotos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FilterPhotosResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IPhotoService">
+    <wsdl:operation name="AddPhoto">
+      <wsdl:input wsam:Action="http://tempuri.org/IPhotoService/AddPhoto" message="tns:IPhotoService_AddPhoto_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IPhotoService/AddPhotoResponse" message="tns:IPhotoService_AddPhoto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePhoto">
+      <wsdl:input wsam:Action="http://tempuri.org/IPhotoService/UpdatePhoto" message="tns:IPhotoService_UpdatePhoto_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IPhotoService/UpdatePhotoResponse" message="tns:IPhotoService_UpdatePhoto_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeletePhotos">
+      <wsdl:input wsam:Action="http://tempuri.org/IPhotoService/DeletePhotos" message="tns:IPhotoService_DeletePhotos_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IPhotoService/DeletePhotosResponse" message="tns:IPhotoService_DeletePhotos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddLocations">
+      <wsdl:input wsam:Action="http://tempuri.org/IPhotoService/AddLocations" message="tns:IPhotoService_AddLocations_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IPhotoService/AddLocationsResponse" message="tns:IPhotoService_AddLocations_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddTags">
+      <wsdl:input wsam:Action="http://tempuri.org/IPhotoService/AddTags" message="tns:IPhotoService_AddTags_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IPhotoService/AddTagsResponse" message="tns:IPhotoService_AddTags_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPerson">
+      <wsdl:input wsam:Action="http://tempuri.org/IPhotoService/AddPerson" message="tns:IPhotoService_AddPerson_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IPhotoService/AddPersonResponse" message="tns:IPhotoService_AddPerson_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FilterPhotos">
+      <wsdl:input wsam:Action="http://tempuri.org/IPhotoService/FilterPhotos" message="tns:IPhotoService_FilterPhotos_InputMessage" />
+      <wsdl:output wsam:Action="http://tempuri.org/IPhotoService/FilterPhotosResponse" message="tns:IPhotoService_FilterPhotos_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IPhotoService" type="tns:IPhotoService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddPhoto">
+      <soap:operation soapAction="http://tempuri.org/IPhotoService/AddPhoto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePhoto">
+      <soap:operation soapAction="http://tempuri.org/IPhotoService/UpdatePhoto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeletePhotos">
+      <soap:operation soapAction="http://tempuri.org/IPhotoService/DeletePhotos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddLocations">
+      <soap:operation soapAction="http://tempuri.org/IPhotoService/AddLocations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddTags">
+      <soap:operation soapAction="http://tempuri.org/IPhotoService/AddTags" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddPerson">
+      <soap:operation soapAction="http://tempuri.org/IPhotoService/AddPerson" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FilterPhotos">
+      <soap:operation soapAction="http://tempuri.org/IPhotoService/FilterPhotos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PhotoService">
+    <wsdl:port name="BasicHttpBinding_IPhotoService" binding="tns:BasicHttpBinding_IPhotoService">
+      <soap:address location="http://localhost:3005/photoAPI" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
