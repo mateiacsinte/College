@@ -9,7 +9,8 @@ namespace RazorView.Models
         public Photo() { }
         public string Name { get; set; }
         public string Path { get; set; }
-        public List<string> people;
-        public List<string> places;
+        public string TagList { get; set; }
+        public string PeopleList { get; set; }
+        public string LocationList { get; set; }
     }
 }

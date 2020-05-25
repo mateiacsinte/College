@@ -540,11 +540,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Facultate\\Anul III S2\\Proiect2_2020\\MyPhotos\\RazorView\\RazorView.csproj",
+      "projectUniqueName": "D:\\Facultate\\Anul III S2\\Proiect3_2020\\MyPhotos\\RazorView\\RazorView.csproj",
       "projectName": "RazorView",
-      "projectPath": "D:\\Facultate\\Anul III S2\\Proiect2_2020\\MyPhotos\\RazorView\\RazorView.csproj",
+      "projectPath": "D:\\Facultate\\Anul III S2\\Proiect3_2020\\MyPhotos\\RazorView\\RazorView.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Facultate\\Anul III S2\\Proiect2_2020\\MyPhotos\\RazorView\\obj\\",
+      "outputPath": "D:\\Facultate\\Anul III S2\\Proiect3_2020\\MyPhotos\\RazorView\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

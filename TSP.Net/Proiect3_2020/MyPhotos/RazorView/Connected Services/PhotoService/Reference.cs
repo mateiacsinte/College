@@ -20,9 +20,15 @@ namespace PhotoService
         
         private string DateField;
         
+        private string LocationListField;
+        
         private string NameField;
         
         private string PathField;
+        
+        private string PeopleListField;
+        
+        private string TagListField;
         
         [System.Runtime.Serialization.DataMemberAttribute()]
         public string Date
@@ -34,6 +40,19 @@ namespace PhotoService
             set
             {
                 this.DateField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string LocationList
+        {
+            get
+            {
+                return this.LocationListField;
+            }
+            set
+            {
+                this.LocationListField = value;
             }
         }
         
@@ -60,6 +79,32 @@ namespace PhotoService
             set
             {
                 this.PathField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string PeopleList
+        {
+            get
+            {
+                return this.PeopleListField;
+            }
+            set
+            {
+                this.PeopleListField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string TagList
+        {
+            get
+            {
+                return this.TagListField;
+            }
+            set
+            {
+                this.TagListField = value;
             }
         }
     }

@@ -1,12 +1,26 @@
-﻿@page
+﻿@page "{peopleFilter?}/{tagFilter?}/{locationFilter?}"
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
 }
 
-
-@foreach (var photo in Model.photos)
-{
-    <h2>@photo.Name</h2>
-}
+<table class="table">
+    <tr>
+        <th>Poza</th>
+        <th>Nume</th>
+        <th>Persoane</th>
+        <th>Locatii</th>
+        <th>Taguri</th>
+    </tr>
+    @foreach (var photo in Model.photos)
+    {
+        <tr>
+            <td><img src=@photo.Path width="150px" height="150px" /></td>
+            <td>@photo.Name</td>
+            <td>@photo.PeopleList</td>
+            <td>@photo.LocationList</td>
+            <td>@photo.TagList</td>
+        </tr>
+    }
+</table>
 

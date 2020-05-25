@@ -21,8 +21,14 @@ namespace RazorView.Pages
             _logger = logger;
         }
 
-        public async Task OnGetAsync()
+        public async Task OnGetAsync(string peopleFilter, string tagFilter, string locationFilter)
         {
+            if(peopleFilter == null)
+                peopleFilter = "";
+            if (locationFilter == null)
+                locationFilter = "";
+            if (tagFilter == null)
+                tagFilter = "";
             PhotoServiceClient ps = new PhotoServiceClient();
             photos = new List<Photo>();
             var allPhotos = await ps.FilterPhotosAsync("", "", "", "", "", "");
@@ -30,17 +36,16 @@ namespace RazorView.Pages
             {
                 var photo = new Photo();
                 photo.Name = ph.Name;
+                photo.TagList = ph.TagList;
+                photo.LocationList = ph.LocationList;
+                photo.PeopleList = ph.PeopleList;
+                photo.Path = ph.Path;
                 photos.Add(photo);
             }
-           
-            var p1 = new Photo();
-            p1.Name = "Prima Fotografie";
-            var p2 = new Photo();
-            p2.Name = "Fotografia 2";
-            photos.Add(p1);
-            photos.Add(p2);
-            
-
+            photos = photos.Where(p => p.PeopleList.Contains(peopleFilter)).ToList();
+            photos = photos.Where(p => p.TagList.Contains(tagFilter)).ToList();
+            photos = photos.Where(p => p.LocationList.Contains(locationFilter)).ToList();
+            photos.Sort((p1, p2) => p1.Name.CompareTo(p2.Name));
         }
     }
 }

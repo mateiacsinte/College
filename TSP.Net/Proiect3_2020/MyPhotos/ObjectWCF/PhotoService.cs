@@ -50,7 +50,15 @@ namespace ObjectWCF.ObjectWCF
                
                 foreach (Photo photo in photos)
                 {
-                    PhotoDTO photoDTO = new PhotoDTO(photo.Name, photo.Path, photo.Date);
+                    string tagList = "";
+                    string peopleList = "";
+                    string locationList = "";
+
+                    foreach(var t in photo.Tags) tagList += " " + t.Description;
+                    foreach (var p in photo.People) peopleList += " " + p.FirstName;
+                    foreach (var l in photo.Locations) locationList += " " + l.Name; 
+
+                    PhotoDTO photoDTO = new PhotoDTO(photo.Name, photo.Path, photo.Date, tagList, peopleList, locationList);
                     outPhotos.Add(photoDTO);
                 }
             }

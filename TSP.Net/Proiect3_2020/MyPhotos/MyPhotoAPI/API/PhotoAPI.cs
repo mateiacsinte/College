@@ -166,19 +166,19 @@ namespace MyPhotoAPI
 
         public IEnumerable<Photo> FilterPhotos(string photoName, string person, string path, string location, string tag, string date)
         {
-            IEnumerable<Photo> allPhotos = context.Photos.ToList();
+            IEnumerable<Photo> allPhotos = context.Photos.Include("Tags").Include("People").Include("Locations").ToList();
             if (!photoName.Equals(""))
             {
-                return context.Photos.Where(p => p.Name.ToLower().Equals(photoName)).ToList();
+                return context.Photos.Include("Tags").Include("People").Include("Locations").Where(p => p.Name.ToLower().Equals(photoName)).ToList();
             }
             if (!path.Equals(""))
             {
-                return context.Photos.Where(p => p.Path.ToLower().Equals(path)).ToList();
+                return context.Photos.Include("Tags").Include("People").Include("Locations").Where(p => p.Path.ToLower().Equals(path)).ToList();
             }
 
             if (!date.Equals(""))
             {
-                return context.Photos.Where(p => p.Date.ToLower().Equals(date)).ToList();
+                return context.Photos.Include("Tags").Include("People").Include("Locations").Where(p => p.Date.ToLower().Equals(date)).ToList();
             }
 
             if (!location.Equals(""))

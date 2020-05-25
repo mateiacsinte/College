@@ -13,5 +13,14 @@ namespace Proiect3.Pages
         {
 
         }
+
+        public IActionResult OnPost()
+        {
+            var person = Request.Form["Person"];
+            var tag = Request.Form["Tag"];
+            var place = Request.Form["Location"];
+            var URL = $"Index?peopleFilter={person}&tagFilter={tag}&locationFilter={place}";
+            return RedirectToPage(URL);
+        }
     }
 }
